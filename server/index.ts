@@ -41,3 +41,6 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
   console.log(`Dog API endpoint: http://localhost:${PORT}/api/dogs/random`);
 });
+
+//export app for tests
+export default app
